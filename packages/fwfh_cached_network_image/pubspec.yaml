@@ -8,6 +8,7 @@ environment:
   sdk: ">=2.13.0 <4.0.0"
 
 dependencies:
+  cached_network_image:
     git:
       url: https://github.com/prashantsolankispaceo/cached_network_image.git
       path: cached_network_image
