@@ -8,7 +8,9 @@ environment:
   sdk: ">=2.13.0 <4.0.0"
 
 dependencies:
-  cached_network_image: ^3.0.0
+    git:
+      url: https://github.com/prashantsolankispaceo/cached_network_image.git
+      path: cached_network_image
   flutter:
     sdk: flutter
   flutter_cache_manager: ^3.0.0
